@@ -38,6 +38,9 @@
 - [LaTeX Beamer 原始檔](latex/taiwan-stock-market.tex)
 - [LaTeX PDF 簡報](latex/taiwan-stock-market.pdf)
 - [HTML 簡報](html/taiwan-stock-market.html)：可用鍵盤方向鍵或右下角按鈕翻頁。
+- [AI 股市泡沫 HTML 簡報](html/ai-stock-bubble.html)：拆分 AI 產業基本面與股票估值風險。
+- [聯準會與股市 HTML 簡報](html/fed-and-stocks.html)：整理升息、殖利率與股票評價的研究框架。
+- [ESG 股票績效 HTML 簡報](html/esg-stock-performance.html)：標示目前 Wiki 尚未完成 ESG 績效整理的資料狀態。
 
 ## 來源筆記
 

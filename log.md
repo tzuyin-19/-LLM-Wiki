@@ -115,3 +115,10 @@
 
 - 在 HTML 簡報庫前加入「臺灣集中市場」簡介，保留上市公司家數、總市值與 TAIEX 快照。
 - 首頁仍不放研究筆記、PDF 下載或研究主題導覽，維持「市場簡介＋HTML 簡報庫」的展示結構。
+
+## [2026-11-11] output | 新增三份 HTML 研究簡報
+
+- 新增 `html/ai-stock-bubble.html` 與 `slides/ai-stock-bubble.md`，內容依 AI 估值與利率風險、凱基來源筆記與全球金融穩定風險整理。
+- 新增 `html/fed-and-stocks.html` 與 `slides/fed-and-stocks.md`，內容依聯準會升息來源筆記與既有宏觀頁整理。
+- 新增 `html/esg-stock-performance.html` 與 `slides/esg-stock-performance.md`；因 Wiki 尚無 ESG 績效頁面，明確標示為資料待建立，不下未經整理的績效結論。
+- 更新首頁與 `index.md`，將三份簡報加入 HTML 簡報庫入口。
