@@ -93,3 +93,8 @@
 
 - 使用者提供 `https://github.com/tzuyin-19/-LLM-Wiki.git`，已將完整專案初始化為 Git repository，建立 `main` 分支並推送初始提交。
 - GitHub Pages 尚未完成設定；目前瀏覽器未登入 GitHub，需由使用者登入後在 Repository 的 Settings → Pages 選擇 `main` 與 `/(root)`。
+
+## [2026-11-11] revision | 對照課程網站範例調整首頁
+
+- 將根目錄首頁改為「研究成果庫」形式，加入主要導覽列、研究成果卡片與 GitHub Repository 入口。
+- 明確呈現作業需要的專案簡介、Repository、網站、`AGENTS.md` 與 AI 延伸規則，並保留未來新增研究主題的入口。
