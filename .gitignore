@@ -1,0 +1,18 @@
+# LaTeX 編譯產物
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+
+# 本機預覽與暫存資料
+tmp/
+.cache/
+
+# 作業系統與編輯器檔案
+.DS_Store
+Thumbs.db
+.vscode/

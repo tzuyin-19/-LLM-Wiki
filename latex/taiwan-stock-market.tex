@@ -1,0 +1,206 @@
+\documentclass[fontset=none,aspectratio=169,11pt]{ctexbeamer}
+\setCJKmainfont[AutoFakeBold=3]{Noto Sans TC}
+\setCJKsansfont[AutoFakeBold=3]{Noto Sans TC}
+\newCJKfontfamily{\TitleFont}[AutoFakeBold=2]{Microsoft JhengHei}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\definecolor{Paper}{HTML}{FFFEFA}
+\definecolor{Ink}{HTML}{09090B}
+\definecolor{Muted}{HTML}{565B67}
+\definecolor{Purple}{HTML}{9A32F0}
+\definecolor{Pink}{HTML}{E857DC}
+\definecolor{Cyan}{HTML}{69E8F1}
+\definecolor{Blue}{HTML}{7268EE}
+\definecolor{Yellow}{HTML}{FFE17D}
+
+\setbeamercolor{background canvas}{bg=Paper}
+\setbeamercolor{normal text}{fg=Ink,bg=Paper}
+\setbeamercolor{frametitle}{fg=Ink,bg=Paper}
+\setbeamercolor{structure}{fg=Purple}
+\setbeamercolor{footline}{fg=Muted,bg=Paper}
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=0.82cm,text margin right=0.82cm}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamertemplate{frametitle}{\vspace{0.24cm}\begin{beamercolorbox}[wd=\linewidth,sep=0.10cm,leftskip=0.15cm]{frametitle}\strut\insertframetitle\end{beamercolorbox}\vspace{0.08cm}\textcolor{Purple}{\rule{2.0cm}{3pt}}\vspace{0.22cm}}
+\setbeamertemplate{footline}{\hspace{0.82cm}\scriptsize\textcolor{Muted}{臺灣集中市場研究快照}\hfill\scriptsize\textcolor{Muted}{\insertframenumber}\hspace{0.82cm}\vspace{0.22cm}}
+\setlength{\parskip}{0.24em}
+
+\newcommand{\accentRule}[1][Purple]{\textcolor{#1}{\rule{2.25cm}{4pt}}}
+\newcommand{\noteBox}[2][Yellow]{\fcolorbox{Ink}{#1}{\parbox{0.92\linewidth}{\small #2}}}
+\newcommand{\statLine}[3]{\noindent\textcolor{#1}{\rule{\linewidth}{3pt}}\\[0.20cm]{\fontsize{19}{23}\selectfont\bfseries #2}\hspace{0.25cm}{\small\bfseries #3}\par\vspace{0.12cm}}
+\newcommand{\bigChange}[3]{\begin{minipage}[t]{0.48\linewidth}\centering\textcolor{#1}{\fontsize{24}{27}\selectfont\bfseries #2}\\[0.18cm]{\small\bfseries #3}\end{minipage}}
+\newcommand{\qrow}[2]{\vspace{0.02cm}\noindent\textcolor{Cyan}{\fontsize{22}{24}\selectfont\bfseries #1}\hspace{0.28cm}{\small #2}\par\vspace{0.08cm}\textcolor{Ink}{\rule{\linewidth}{1.5pt}}\vspace{0.12cm}}
+
+\title{臺灣集中市場}
+\subtitle{2026 年 9 月研究快照}
+\author{個人研究版}
+\date{資料截至 2026-09-30}
+
+\begin{document}
+
+\begin{frame}
+\begin{columns}[T,onlytextwidth]
+  \column{0.56\linewidth}
+    {\small\textcolor{Purple}{\textbf{PERSONAL RESEARCH / 2026.09}}}\\[0.45cm]
+    \fcolorbox{Ink}{white}{\parbox{0.95\linewidth}{{\TitleFont\fontsize{30}{35}\selectfont\bfseries 臺灣\\[0.02cm]集中市場}}}\\[0.42cm]
+    \accentRule\\[0.35cm]
+    {\large\bfseries 市場規模、指數與成交值}\\[0.06cm]
+    {\normalsize 一頁看懂這個市場的研究入口}\\[0.42cm]
+    {\small\textcolor{Muted}{資料截至 2026-09-30\quad 只使用 Wiki 已整理內容}}
+  \column{0.44\linewidth}
+    \begin{flushright}
+      {\scriptsize\fcolorbox{Ink}{Cyan}{\textbf{MARKET}}\quad\fcolorbox{Ink}{Purple}{\textcolor{white}{\textbf{DATA}}}\quad\fcolorbox{Ink}{Pink}{\textbf{QUESTIONS}}}\\[0.35cm]
+      \fcolorbox{Ink}{Cyan}{\begin{minipage}[c][4.0cm][c]{0.88\linewidth}\centering
+        {\fontsize{21}{23}\selectfont\bfseries 156.81T}\\[0.20cm]
+        {\normalsize\bfseries 上市公司總市值}\\[0.02cm]
+        {\small 新臺幣}
+      \end{minipage}}\\[-0.1cm]
+      \includegraphics[width=2.0cm]{../raw/assets/beanhead-01-transparent.png}
+    \end{flushright}
+\end{columns}
+\end{frame}
+
+\begin{frame}{市場規模}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 01}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{columns}[T,onlytextwidth]
+    \column{0.62\linewidth}
+      {\normalsize 截至 9 月底，上市公司數量、市場市值與年度籌資額都維持擴張。}\\[0.26cm]
+      \statLine{Purple}{1,085}{家上市公司}
+      \statLine{Cyan}{156.81T}{上市公司總市值}
+      \statLine{Pink}{3,195.85 億}{2026 年累計籌資}
+    \column{0.38\linewidth}
+      \begin{center}
+        {\colorbox{Cyan}{\begin{minipage}[c][2.20cm][c]{0.80\linewidth}\centering{\fontsize{48}{48}\selectfont\bfseries 22}\end{minipage}}}\\[0.12cm]
+        {\scriptsize\bfseries 較 2025 年底增加 22 家上市公司}\\[0.20cm]
+        \noteBox{總市值較 2025 年底增加\textbf{ 62.45 兆元}。}
+      \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{價格與交易活躍度}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 02}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{columns}[T,onlytextwidth]
+    \column{0.38\linewidth}
+      {\large 9 月的價格表現與交易活躍度出現不同方向。}\\[0.5cm]
+      \noteBox[Cyan]{價格上漲本身不足以判定趨勢是否健康，還要補充市場寬度與產業輪動資料。}
+    \column{0.62\linewidth}
+      \begin{center}
+        \bigChange{Purple}{+3.93\%}{TAIEX 9 月漲幅\\47,940.13 點}\hfill
+        \bigChange{Cyan}{-11.46\%}{成交值月變化\\17.6236 兆元}
+      \end{center}
+      \vspace{0.48cm}\textcolor{Ink}{\rule{\linewidth}{3pt}}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{市場集中度}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 03}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{columns}[T,onlytextwidth]
+    \column{0.53\linewidth}
+      {\large 台積電同時位居市值與成交值排名首位。}\\[0.25cm]
+      \begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}r}
+        \toprule
+        發行市值 & \textcolor{Purple}{\textbf{643,123 億元\quad \#1}}\\
+        9 月成交值 & \textcolor{Purple}{\textbf{11,083 億元\quad \#1}}\\
+        \bottomrule
+      \end{tabularx}
+      \vspace{0.80cm}\noteBox[Pink]{\small 指數上漲不等於所有上市公司同步上漲。}
+    \column{0.47\linewidth}
+      \begin{center}
+        {\colorbox{Purple}{\begin{minipage}[c][3.65cm][c]{0.72\linewidth}\centering\color{white}{\fontsize{35}{36}\selectfont\bfseries 6.80\%}\\[0.12cm]{\normalsize 台積電占上市股票成交值}\end{minipage}}}\\[0.25cm]
+        {\scriptsize\bfseries 大型權值股會改變市場解讀方式}
+      \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{營收成長與 AI 傳導}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 04}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{columns}[T,onlytextwidth]
+    \column{0.68\linewidth}
+      {\large 上市公司營收成長強，但 \textbf{AI 需求到個別公司獲利}的傳導仍需驗證。}\\[0.3cm]
+      \statLine{Purple}{6.17 兆}{9 月營收，年增 47.28\%}
+      \statLine{Cyan}{45.18 兆}{1–9 月累計營收，年增 38.30\%}
+      \statLine{Pink}{待驗證}{AI 需求到公司獲利}
+    \column{0.32\linewidth}
+      \begin{center}
+        {\colorbox{Yellow}{\begin{minipage}[c][2.2cm][c]{0.75\linewidth}\centering{\fontsize{46}{46}\selectfont\bfseries ?}\end{minipage}}}\\[0.12cm]
+      \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{四類研究風險}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 05}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{columns}[T,onlytextwidth]
+    \column{0.28\linewidth}
+        {\colorbox{Pink}{\begin{minipage}[c][2.10cm][c]{0.90\linewidth}\centering{\fontsize{50}{52}\selectfont\bfseries 4}\end{minipage}}}\\[0.16cm]
+      {\normalsize\bfseries 風險類型\\需要一起追蹤}
+    \column{0.72\linewidth}
+      \begin{tabularx}{\linewidth}{XX}
+        \textcolor{Purple}{\rule{\linewidth}{3pt}} & \textcolor{Cyan}{\rule{\linewidth}{3pt}}\\[-0.05cm]
+        \textbf{估值與利率} & \textbf{外部衝擊}\\[-0.02cm]
+        {\small 無風險利率、風險溢酬與盈餘預期。} & {\small 能源、匯率、關稅與地緣政治。}\\[0.35cm]
+        \textcolor{Pink}{\rule{\linewidth}{3pt}} & \textcolor{Blue}{\rule{\linewidth}{3pt}}\\[-0.05cm]
+        \textbf{產業傳導} & \textbf{市場制度}\\[-0.02cm]
+        {\small \textbf{AI 需求}是否擴散到不同產業與供應鏈。} & {\small 注意／處置股票、ETF、權證與永續揭露規範。}
+      \end{tabularx}
+  \end{columns}
+  \vfill\noteBox{這是一個研究框架，不是買賣訊號。}
+\end{frame}
+
+\begin{frame}{後續研究問題}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 06}\\[0.28cm]
+  {\normalsize 目前 Wiki 足以建立市場快照，但還不足以拆解市場上漲的廣度與 AI 需求的公司層級影響。}\\[0.45cm]
+  \qrow{01}{\textbf{市場寬度}　上漲／下跌家數、等權重指數與產業報酬。}
+  \qrow{02}{\textbf{公司層級}　訂單、庫存、毛利率與資本支出。}
+  \qrow{03}{\textbf{情境分析}　利率、能源價格、匯率與臺股估值敏感度。}
+\end{frame}
+
+\begin{frame}{結論與研究邊界}
+  \textcolor{Pink}{\fontsize{20}{20}\selectfont\bfseries 07}\hspace{0.35cm}\accentRule\\[0.18cm]
+  \begin{center}
+    {\TitleFont\fontsize{14}{18}\selectfont\bfseries 9 月市場呈現：指數上升、成交值月減、營收成長強的組合}
+  \end{center}
+  \vspace{0.30cm}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.55\linewidth}
+      {\small\textbf{大型權值股集中度}，讓市場寬度成為下一個問題}\\[0.22cm]
+      {\small\textbf{AI 需求}是研究線索，目前仍是待驗證假說}
+    \column{0.45\linewidth}
+      \begin{center}
+        \includegraphics[width=2.25cm]{../raw/assets/beanhead-10-transparent.png}\\[-0.12cm]
+        \noteBox[Cyan]{\small\textbf{資料範圍}\\[0.06cm]Wiki 已整理資料；外部文獻僅列出，未納入結論\\[0.06cm]\textbf{截至 2026-09-30}}
+      \end{center}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{參考文獻與來源}
+  \small
+  \begin{columns}[T,onlytextwidth]
+    \column{0.49\linewidth}
+      \begin{center}\textbf{Wiki 來源}\end{center}
+      \begin{minipage}[t]{0.92\linewidth}
+        \begin{itemize}
+          \item [WIKI-01] \href{run:../wiki/markets/taiwan-stock-market.md}{臺灣集中市場}
+          \item [WIKI-02] \href{run:../wiki/source-notes/2026-09-集中市場月訊.md}{證券服務月刊：集中市場月訊（2026 年 9 月）}
+          \item \href{run:../raw/articles/證券服務月刊.pdf}{下載原始 PDF}
+        \end{itemize}
+      \end{minipage}
+    \column{0.49\linewidth}
+      \begin{center}\textbf{建議後續 Wiki 化的外部文獻}\end{center}
+      \begin{minipage}[t]{0.92\linewidth}
+        \begin{itemize}
+          \item \href{https://www.twse.com.tw/market_insights/zh/detail/8a8216d6a0fa351b01a153bfa5ba01b6}{TWSE 115 年 9 月集中市場月訊官方頁面}
+          \item \href{https://www.twse.com.tw/zh/trading/statistics/index02.html}{TWSE 市場交易月報與統計資料}
+          \item \href{https://www.twse.com.tw/zh/products/system/trading.html}{TWSE 集中市場交易制度介紹}
+        \end{itemize}
+      \end{minipage}
+  \end{columns}
+  \vfill
+  \begin{center}\noteBox{外部文獻尚未納入本次研究結論。}\end{center}
+\end{frame}
+
+\end{document}
