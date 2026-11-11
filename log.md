@@ -122,3 +122,8 @@
 - 新增 `html/fed-and-stocks.html` 與 `slides/fed-and-stocks.md`，內容依聯準會升息來源筆記與既有宏觀頁整理。
 - 新增 `html/esg-stock-performance.html` 與 `slides/esg-stock-performance.md`；因 Wiki 尚無 ESG 績效頁面，明確標示為資料待建立，不下未經整理的績效結論。
 - 更新首頁與 `index.md`，將三份簡報加入 HTML 簡報庫入口。
+
+## [2026-11-11] revision | 修正簡報文字與裝飾重疊
+
+- 移除臺灣集中市場「價格與交易活躍度」頁面文字後方的點狀裝飾，避免文字壓到背景圖案。
+- 將 AI 股市泡沫簡報研究邊界頁的來源描述改為「券商觀點與官方分析」，讓證據層級更直接。
