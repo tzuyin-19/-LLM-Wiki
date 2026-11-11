@@ -88,3 +88,8 @@
 - 建立根目錄 `index.html`，提供專案簡介、目前 Wiki／簡報入口與 AI 延伸規則說明。
 - 建立 `.gitignore`，排除 LaTeX 編譯暫存檔、本機暫存資料與編輯器設定檔。
 - 尚未建立 GitHub Repository、設定 Pages 或推送遠端；等待使用者建立公開 Repository 後再進行上傳。
+
+## [2026-11-11] deployment | 上傳 GitHub
+
+- 使用者提供 `https://github.com/tzuyin-19/-LLM-Wiki.git`，已將完整專案初始化為 Git repository，建立 `main` 分支並推送初始提交。
+- GitHub Pages 尚未完成設定；目前瀏覽器未登入 GitHub，需由使用者登入後在 Repository 的 Settings → Pages 選擇 `main` 與 `/(root)`。
