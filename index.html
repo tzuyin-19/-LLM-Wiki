@@ -11,8 +11,8 @@
     .page{min-height:100vh;position:relative;overflow:hidden;background:var(--paper)}.page:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(var(--ink) 1.2px,transparent 1.2px);background-size:15px 15px;opacity:.07;mask-image:linear-gradient(135deg,#000 0 15%,transparent 35% 68%,#000 88%)}
     .blob{position:absolute;border:var(--line);background:linear-gradient(135deg,var(--cyan),var(--purple) 48%,var(--pink));pointer-events:none}.blob.tl{width:280px;height:175px;left:-105px;top:-90px;border-radius:20% 65% 45% 70%;transform:rotate(-9deg)}.blob.br{width:280px;height:190px;right:-120px;bottom:-100px;border-radius:48% 28% 60% 38%;transform:rotate(18deg)}
     .wrap{position:relative;z-index:1;width:min(1120px,calc(100% - 48px));margin:0 auto}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0 8px}.brand{font-weight:950;letter-spacing:.04em}.nav-links{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}.nav-links a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:850;border-bottom:2px solid transparent}.nav-links a:hover{color:var(--purple);border-color:var(--purple)}.hero{padding:56px 0 66px;min-height:520px;display:grid;grid-template-columns:1.08fr .92fr;gap:50px;align-items:center}.eyebrow{font-size:15px;letter-spacing:.12em;font-weight:900;color:var(--purple);text-transform:uppercase}.hero h1{max-width:680px;margin:20px 0 18px;font-size:clamp(44px,7vw,90px);line-height:.98;letter-spacing:-.07em;text-shadow:4px 4px 0 var(--cyan);-webkit-text-stroke:.8px var(--ink)}.rule{width:115px;height:9px;border:var(--line);background:linear-gradient(90deg,var(--purple),var(--pink));transform:rotate(-2deg);margin:24px 0}.hero p{max-width:650px;margin:0;font-size:clamp(19px,2.2vw,28px);line-height:1.5}.meta{margin-top:22px!important;font-size:15px!important;color:var(--muted);font-weight:700}.visual{display:grid;place-items:center;min-height:360px;position:relative}.ring{width:min(330px,70vw);aspect-ratio:1;border:6px solid var(--ink);border-radius:50%;background:conic-gradient(var(--purple) 0 43%,var(--cyan) 43% 66%,var(--pink) 66% 100%);box-shadow:12px 12px 0 var(--ink);display:grid;place-items:center;transform:rotate(-12deg)}.ring:after{content:"";width:58%;aspect-ratio:1;border:6px solid var(--ink);border-radius:50%;background:var(--paper)}.ring-copy{position:absolute;text-align:center;transform:rotate(-12deg);font-weight:950}.ring-copy .number{font-size:clamp(30px,4.8vw,60px);line-height:.95}.ring-copy .label{font-size:17px;margin-top:10px}.avatar{position:absolute;width:110px;right:5%;top:2%;transform:rotate(7deg)}.avatar img{display:block;width:100%}
-    .section{padding:44px 0 76px}.section h2{margin:0;font-size:clamp(28px,4vw,48px);line-height:1.08;letter-spacing:-.05em}.section h2 span{color:var(--pink);font-size:.65em;margin-right:.45em;-webkit-text-stroke:.5px var(--ink)}.section-intro{max-width:760px;color:var(--muted);font-size:19px;margin:18px 0 28px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:var(--line);padding:22px 24px;background:#fff;box-shadow:7px 7px 0 var(--ink)}.card:nth-child(2){background:#e7ffff}.card:nth-child(3){background:#ffe4fb}.card h3{margin:0 0 8px;font-size:22px}.card p{margin:0;font-size:16px;line-height:1.6}.entry-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:26px}.entry{display:flex;min-height:210px;flex-direction:column;justify-content:space-between;color:var(--ink);text-decoration:none;border:var(--line);padding:22px 24px;background:#fff;box-shadow:7px 7px 0 var(--ink);transition:transform .15s ease}.entry:hover{transform:translate(-3px,-3px)}.entry:nth-child(2){background:#e7ffff}.entry:nth-child(3){background:#ffe4fb}.entry:nth-child(4){background:#ffe17d}.entry:nth-child(5){background:#fff}.entry:nth-child(6){background:#e7ffff}.entry-tag{font-size:13px;letter-spacing:.1em;font-weight:950;color:var(--purple);text-transform:uppercase}.entry h3{font-size:24px;line-height:1.15;margin:12px 0 8px}.entry p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}.entry-cta{margin-top:18px;font-weight:950}.links{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:26px}.link{display:block;color:var(--ink);text-decoration:none;border-bottom:var(--line);padding:14px 0;font-weight:850}.link:hover{color:var(--purple)}.link small{display:block;color:var(--muted);font-weight:600;margin-top:3px}.notice{margin-top:28px;border:var(--line);background:var(--yellow);padding:15px 20px;font-size:16px;font-weight:750}.footer{border-top:var(--line);padding:22px 0 32px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:18px}.footer a{color:var(--ink);font-weight:850}
-    @media(max-width:760px){.wrap{width:min(100% - 34px,600px)}.nav{align-items:flex-start;flex-direction:column}.nav-links{justify-content:flex-start}.hero{grid-template-columns:1fr;gap:20px;padding-top:44px}.visual{min-height:285px}.avatar{width:84px;right:10%;top:0}.grid,.entry-grid,.links{grid-template-columns:1fr}.section{padding:34px 0 54px}.footer{display:block}.footer span{display:block;margin-top:6px}}
+    .section{padding:44px 0 76px}.section h2{margin:0;font-size:clamp(28px,4vw,48px);line-height:1.08;letter-spacing:-.05em}.section h2 span{color:var(--pink);font-size:.65em;margin-right:.45em;-webkit-text-stroke:.5px var(--ink)}.section-intro{max-width:760px;color:var(--muted);font-size:19px;margin:18px 0 28px}.section-meta{margin:-14px 0 24px;color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:var(--line);padding:22px 24px;background:#fff;box-shadow:7px 7px 0 var(--ink)}.card:nth-child(2){background:#e7ffff}.card:nth-child(3){background:#ffe4fb}.card h3{margin:0 0 8px;font-size:22px}.card p{margin:0;font-size:16px;line-height:1.6}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.stat{border:var(--line);padding:22px 24px;background:var(--cyan);box-shadow:7px 7px 0 var(--ink)}.stat:nth-child(2){background:var(--pink)}.stat:nth-child(3){background:var(--yellow)}.stat-value{font-size:clamp(34px,5vw,58px);font-weight:950;line-height:1.05;letter-spacing:-.05em}.stat-label{font-size:18px;font-weight:900;margin-top:10px}.stat-note{color:#30343a;font-size:13px;margin-top:5px}.entry-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:26px}.entry{display:flex;min-height:210px;flex-direction:column;justify-content:space-between;color:var(--ink);text-decoration:none;border:var(--line);padding:22px 24px;background:#fff;box-shadow:7px 7px 0 var(--ink);transition:transform .15s ease}.entry:hover{transform:translate(-3px,-3px)}.entry:nth-child(2){background:#e7ffff}.entry:nth-child(3){background:#ffe4fb}.entry:nth-child(4){background:#ffe17d}.entry:nth-child(5){background:#fff}.entry:nth-child(6){background:#e7ffff}.entry-tag{font-size:13px;letter-spacing:.1em;font-weight:950;color:var(--purple);text-transform:uppercase}.entry h3{font-size:24px;line-height:1.15;margin:12px 0 8px}.entry p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}.entry-cta{margin-top:18px;font-weight:950}.question-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 26px;margin:0;padding:0;list-style:none}.question-list li{border-top:3px solid var(--ink);padding:14px 0;font-size:17px;font-weight:750}.question-list li::before{content:"?";display:inline-grid;place-items:center;width:26px;height:26px;margin-right:10px;border:2px solid var(--ink);border-radius:50%;background:var(--cyan);font-weight:950}.notice{margin-top:28px;border:var(--line);background:var(--yellow);padding:15px 20px;font-size:16px;font-weight:750}.footer{border-top:var(--line);padding:22px 0 32px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;gap:18px}.footer a{color:var(--ink);font-weight:850}
+    @media(max-width:760px){.wrap{width:min(100% - 34px,600px)}.nav{align-items:flex-start;flex-direction:column}.nav-links{justify-content:flex-start}.hero{grid-template-columns:1fr;gap:20px;padding-top:44px}.visual{min-height:285px}.avatar{width:84px;right:10%;top:0}.grid,.stat-grid,.entry-grid,.question-list,.links{grid-template-columns:1fr}.section{padding:34px 0 54px}.footer{display:block}.footer span{display:block;margin-top:6px}}
   </style>
 </head>
 <body>
@@ -21,15 +21,15 @@
     <div class="wrap">
       <nav class="nav" aria-label="主要導覽">
         <div class="brand">股市分析研究 / LLM WIKI</div>
-        <div class="nav-links"><a href="#about">專案簡介</a><a href="#entries">研究成果</a><a href="#ai-rules">AI 規則</a><a href="https://github.com/tzuyin-19/-LLM-Wiki">GitHub</a></div>
+        <div class="nav-links"><a href="#snapshot">市場快照</a><a href="#topics">研究主題</a><a href="#outputs">研究產出</a><a href="#questions">待研究問題</a></div>
       </nav>
       <header class="hero">
         <div>
           <div class="eyebrow">Personal Research / LLM Wiki</div>
           <h1>股市分析研究<br>知識庫</h1>
           <div class="rule"></div>
-          <p><strong>保存來源、整理證據、追蹤研究問題。</strong><br>讓 AI 依照清楚的規則，持續協助建立可回溯的投資研究脈絡。</p>
-          <p class="meta">資料用途：研究、比較與保存推理過程，不構成個人化投資建議。</p>
+          <p><strong>市場快照、來源筆記、研究產出。</strong><br>從臺灣集中市場出發，整理指數、成交值、基本面與宏觀風險。</p>
+          <p class="meta">研究資料庫　／　資料截至 2026-09-30　／　持續更新</p>
         </div>
         <div class="visual" aria-label="研究資料視覺化裝飾">
           <div class="ring"></div>
@@ -38,44 +38,51 @@
         </div>
       </header>
 
-      <section class="section" id="about">
-        <h2><span>01</span>專案簡介</h2>
-        <p class="section-intro">這是一個以 LLM 協助維護的中文股市研究 Wiki。原始文章、PDF 與資料檔先保存於 raw/，再整理成可交叉連結的市場、宏觀、公司、事件、論點與分析頁面。</p>
-        <div class="grid">
-          <article class="card"><h3>原始資料</h3><p>保留來源原貌，記錄網址、日期、資料截至日與證據等級。</p></article>
-          <article class="card"><h3>Wiki 中間層</h3><p>把單一來源整合到相關主題，保留支持證據、反證與不確定性。</p></article>
-          <article class="card"><h3>研究產出</h3><p>從 Wiki 既有內容產生 notes、逐頁簡報、LaTeX 與 HTML。</p></article>
+      <section class="section" id="snapshot">
+        <h2><span>01</span>市場快照</h2>
+        <p class="section-intro">臺灣集中市場的最新研究快照，先從規模、指數與上市公司基本面建立觀察入口。</p>
+        <p class="section-meta">資料截至 2026 年 9 月 30 日｜來源：證券服務月刊・集中市場月訊</p>
+        <div class="stat-grid">
+          <article class="stat"><div class="stat-value">1,085</div><div class="stat-label">家上市公司</div><div class="stat-note">較 2025 年底增加 22 家</div></article>
+          <article class="stat"><div class="stat-value">156.81T</div><div class="stat-label">上市公司總市值</div><div class="stat-note">月增 6.02 兆元</div></article>
+          <article class="stat"><div class="stat-value">47,940</div><div class="stat-label">TAIEX 收盤點數</div><div class="stat-note">9 月上漲 3.93%</div></article>
         </div>
-        <div class="notice">資料規則：尚未進入 Wiki 的網路內容，不會直接寫進研究結論；只能列為最後的建議參考文獻。</div>
       </section>
 
-      <section class="section" id="entries">
-        <h2><span>02</span>研究成果庫</h2>
-        <p class="section-intro">目前先以「臺灣集中市場」作為示範研究，之後可以依相同規則持續新增主題、研究筆記與簡報。</p>
+      <section class="section" id="topics">
+        <h2><span>02</span>研究主題</h2>
+        <p class="section-intro">以市場結構、宏觀環境與 AI 估值風險為目前的研究主線。</p>
         <div class="entry-grid">
-          <a class="entry" href="html/taiwan-stock-market.html"><div><div class="entry-tag">Research / HTML</div><h3>臺灣集中市場</h3><p>從市場規模、指數、成交值到後續研究問題的互動式簡報。</p></div><div class="entry-cta">開始閱讀 →</div></a>
-          <a class="entry" href="wiki/overview.md"><div><div class="entry-tag">Wiki / Overview</div><h3>研究總覽</h3><p>目前主題、研究地圖、資料範圍與尚未解決的問題。</p></div><div class="entry-cta">查看 Wiki →</div></a>
-          <a class="entry" href="latex/taiwan-stock-market.pdf"><div><div class="entry-tag">Output / PDF</div><h3>LaTeX 研究簡報</h3><p>可下載的 9 頁 PDF 版本，保留可再編譯的 TeX 原始檔。</p></div><div class="entry-cta">下載 PDF →</div></a>
-          <a class="entry" href="AGENTS.md"><div><div class="entry-tag">Rules / AI</div><h3>AGENTS.md</h3><p>規定來源保存、Wiki 整合、研究查詢與後續延伸的工作流程。</p></div><div class="entry-cta">閱讀規則 →</div></a>
-          <a class="entry" href="index.md"><div><div class="entry-tag">Navigation / Index</div><h3>Wiki 內容索引</h3><p>市場、宏觀、來源筆記與研究產出的入口。</p></div><div class="entry-cta">開啟索引 →</div></a>
-          <a class="entry" href="https://github.com/tzuyin-19/-LLM-Wiki"><div><div class="entry-tag">Project / GitHub</div><h3>GitHub Repository</h3><p>完整專案檔案、版本紀錄與未來新增頁面的協作位置。</p></div><div class="entry-cta">前往 Repository →</div></a>
+          <a class="entry" href="wiki/markets/taiwan-stock-market.md"><div><div class="entry-tag">Market / Taiwan</div><h3>臺灣集中市場</h3><p>市場規模、指數、成交值、權值股集中度與觀察框架。</p></div><div class="entry-cta">閱讀市場頁 →</div></a>
+          <a class="entry" href="wiki/macro/global-financial-stability-risks.md"><div><div class="entry-tag">Macro / Risk</div><h3>全球金融穩定風險</h3><p>AI 投資、主權債券殖利率與網路攻擊的全球風險框架。</p></div><div class="entry-cta">閱讀宏觀頁 →</div></a>
+          <a class="entry" href="wiki/macro/ai-valuation-and-rate-risk.md"><div><div class="entry-tag">Macro / AI</div><h3>AI 估值與利率風險</h3><p>拆分 AI 需求、公司獲利、資本支出與股票估值之間的關係。</p></div><div class="entry-cta">閱讀主題頁 →</div></a>
         </div>
-        <div class="notice">更多研究主題，陸續加入中……　所有新內容都會先保存來源，再依 AGENTS.md 整合進 Wiki。</div>
       </section>
 
-      <section class="section" id="ai-rules">
-        <h2><span>03</span>AI 如何延伸這個專案</h2>
-        <p class="section-intro">未來新增文章或提出研究問題時，AI 會依照 AGENTS.md 的規則維持資料品質與推理脈絡。</p>
-        <div class="grid">
-          <article class="card"><h3>先保存</h3><p>新文章先放入 raw/，原始來源不可改寫。</p></article>
-          <article class="card"><h3>再整合</h3><p>建立來源筆記並更新 index.md、overview.md 與相關 Wiki 頁。</p></article>
-          <article class="card"><h3>最後產出</h3><p>研究筆記只能使用 Wiki 已整理內容，並標示來源與資料截至日。</p></article>
+      <section class="section" id="outputs">
+        <h2><span>03</span>研究產出</h2>
+        <p class="section-intro">把已整理的市場資料轉成可閱讀、可下載、可繼續追蹤的研究內容。</p>
+        <div class="entry-grid">
+          <a class="entry" href="notes/taiwan-stock-market.md"><div><div class="entry-tag">Research Note</div><h3>臺灣集中市場研究筆記</h3><p>以 Wiki 既有內容整理市場規模、指數與成交值的研究摘要。</p></div><div class="entry-cta">閱讀筆記 →</div></a>
+          <a class="entry" href="html/taiwan-stock-market.html"><div><div class="entry-tag">Interactive / HTML</div><h3>臺灣集中市場簡報</h3><p>以數位普普風呈現市場快照與後續研究問題。</p></div><div class="entry-cta">開始閱讀 →</div></a>
+          <a class="entry" href="latex/taiwan-stock-market.pdf"><div><div class="entry-tag">Download / PDF</div><h3>LaTeX 研究簡報</h3><p>可下載的 9 頁 PDF 版本。</p></div><div class="entry-cta">下載 PDF →</div></a>
         </div>
+      </section>
+
+      <section class="section" id="questions">
+        <h2><span>04</span>待研究問題</h2>
+        <p class="section-intro">目前資料已建立市場快照，但仍需要更多資料來回答以下問題。</p>
+        <ul class="question-list">
+          <li>市場上漲時，實際有多少上市公司同步上漲？</li>
+          <li>大型權值股集中度如何影響指數解讀？</li>
+          <li>AI 需求與公司獲利，是否能支撐目前估值？</li>
+          <li>利率、能源與匯率如何傳導到臺灣市場？</li>
+        </ul>
       </section>
 
       <footer class="footer">
-        <span>股市分析研究 LLM Wiki</span>
-        <span><a href="raw/README.md">原始來源說明</a>　<a href="log.md">操作紀錄</a></span>
+        <span>股市分析研究知識庫｜資料截至 2026-09-30</span>
+        <span><a href="index.md">完整索引</a>　<a href="raw/README.md">來源資料</a>　<a href="https://github.com/tzuyin-19/-LLM-Wiki">Repository</a></span>
       </footer>
     </div>
   </main>
